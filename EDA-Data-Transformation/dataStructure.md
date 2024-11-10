@@ -8,9 +8,9 @@ The dataset is a CSV file with 9 columns and 90 rows. The columns are as follows
 | **ID** | Int | 1,2,3 | The county-given identification number for the selected plot |
 | **YearBuilt** | Int | 1990,1986,1955 | The listed year in which the structure was built (by year) |
 | **SqFt** | Int | 2102,1740,795 | The area of the floor plan in square feet (in square feet) |
-| **Story** | Int/Ordered Categorical | 1.0,1.5,1.0 | How many stories the structure has (in stories) |
+| **Story** | Ordered Discrete | 1.0,1.5,1.0 | How many stories the structure has (in stories) |
 | **Acres** | Float | 0.77,0.6,0.30 | How many acres in included in the plot (in acres) |
-| **Baths** | Discrete | 2,1,2.5 | The number of bathrooms at the residence (in bathrooms) |
+| **Baths** | Ordered Discrete | 2,1,2.5 | The number of bathrooms at the residence (in bathrooms) |
 | **Fireplaces** | Int | 1,0,2 | The number of fireplaces in the residence (in fireplaces) |
 | **Zip** | Int | 61801,61802,61803 | The zip code of the property |
 | **Value** | Int | 200000,150000,300000 | The total assessed value of the property (in dollars) |
